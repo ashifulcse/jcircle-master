@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>jCircle Demo</title>
+    <link href="jCircle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div style="width:40%;margin:200px auto;">
+        <div id="circles-container-text">
+            <div id="main-circle-content-text"></div>
+            <div id="circle-text">
+                <div class="min-circle" data-inside="min-circle">
+                    <a href="https://avro.im/" style="display:block;width:80%;margin:30% 10%;height:40%;text-align:center;font-size:1.2em;">
+                    DYF
+                  </a>
+                    <div class="content-text">
+                        <h2 class="main_content_h2">DYF</h2>
+                    </div>
+                </div>
+                
+                <div class="min-circle" data-inside="min-circle">
+                    <a href="https://avro.im/" style="display:block;width:80%;margin:30% 10%;height:40%;text-align:center;font-size:1.2em;">
+                    EAR
+                  </a>
+                    <div class="content-text">
+                        <h2 class="main_content_h2">EAR</h2>
+                    </div>
+                </div>
+                
+                <div class="min-circle" data-inside="min-circle">
+                    <a href="https://avro.im/" style="display:block;width:80%;margin:30% 10%;height:40%;text-align:center;font-size:1.2em;">
+                    BER
+                  </a>
+                    <div class="content-text">
+                        <h2 class="main_content_h2">BER</h2>
+                    </div>
+                </div>
+                
+                <div class="min-circle" data-inside="min-circle">
+                    <a href="https://avro.im/" style="display:block;width:80%;margin:30% 10%;height:40%;text-align:center;font-size:1.2em;">
+                    DEMO
+                  </a>
+                    <div class="content-text">
+                        <h2 class="main_content_h2">DEMO</h2>
+                    </div>
+                </div>
+                
+                <div class="min-circle" data-inside="min-circle">
+                    <a href="https://avro.im/" style="display:block;width:80%;margin:30% 10%;height:40%;text-align:center;font-size:1.2em;">
+                    DYF
+                  </a>
+                    <div class="content-text">
+                        <h2 class="main_content_h2">DYF</h2>
+                    </div>
+                </div>
+
+                <div class="min-circle" data-inside="min-circle">
+                    <a href="imgs/3.jpg" style="display:block;width:80%;margin:30% 10%;height:40%;text-align:center;font-size:1.2em;">
+                    Like
+                  </a>
+                    <div class="content-text">
+                        <h2 class="main_content_h2">Like</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="jCircle.min.js"></script>
+    <script>
+
+        var textCircle = new jCircle({
+            'container': 'circles-container-text',
+            'circle': 'circle-text',
+            'mainContent': 'main-circle-content-text',
+            'animateCircles': true,
+            'speed': 3,
+            'mainViewStyle': 'normal',
+            'minCirclesEffectOver': 'rotate',
+            'contentType': 'text',
+            'stopOnOverMain': true
+        });
+        textCircle.create();
+    </script>
+</body>
+
+</html>
